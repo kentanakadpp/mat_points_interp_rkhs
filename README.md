@@ -14,7 +14,7 @@ Below are the descriptions of the program files.
   <li> One-shot generator of point clouds by second-order cone programming (Algorithm 1).
     <ul>
       <li> SOCP_RKHS_sample_1D.m &hellip; for the 1-dimensional kernels: Brownian and Gaussian kernels on intervals. </li>
-      <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernels on the square, triangle, and circle. </li>
+      <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernel on the square, triangle, and circle. </li>
       <li> SOCP_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. </li>
     </ul>
     Below are subroutines used in these programs.
@@ -32,6 +32,7 @@ Below are the descriptions of the program files.
       </ul>
     </ul>
   </li>
+  
   <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
     <ul>
       <li> SOCP_RKHS_sample_1D_seq.m </li>
@@ -43,6 +44,14 @@ Below are the descriptions of the program files.
       <ul>
         <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
       </ul>
+    </ul>
+  </li>
+  
+  <li> Generator of point clouds by the P-greedy algorithm.
+    <ul>
+      <li> P_greedy_RKHS_sample_1D.m &hellip; for the 1-dimensional kernels. </li>
+      <li> P_greedy_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernel. </li>
+      <li> P_greedy_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. </li>
     </ul>
   </li>
 
