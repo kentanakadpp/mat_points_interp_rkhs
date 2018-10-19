@@ -38,7 +38,7 @@ Below are the descriptions of the program files.
       <li> SOCP_RKHS_sample_2D_Gauss_seq.m </li>
       <li> SOCP_RKHS_sample_2D_sphere_seq.m </li>
     </ul>
-    Below are subroutines used in these programs.
+    Below is a subroutine used in these programs. The above "func_" programs except "func_..._SOCP.m" are also used. 
     <ul>
       <ul>
         <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
