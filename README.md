@@ -16,6 +16,7 @@ Below are the descriptions of the program files.
       <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernels on the square, triangle, and circle. </li>
       <li> SOCP_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. <li>
     </ul>
+    Below are subroutines used for 
   </li>
   <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
   </li>
