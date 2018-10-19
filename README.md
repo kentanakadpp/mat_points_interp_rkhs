@@ -30,7 +30,7 @@ Below are the descriptions of the program files.
     </ul>
     Below are subroutines used in these programs.
     <ul>
-      <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem.</li>
+      <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
     </ul>
     </ul>
   </li>
