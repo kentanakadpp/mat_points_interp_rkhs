@@ -20,6 +20,8 @@ Below are the descriptions of the program files.
     Below are subroutines used in these programs.
     <ul>
       <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
+      <li> func_Brown_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Brownian kernel. </li>
+      <li> func_Gauss_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Gaussian kernel. </li>
     </ul>
   </li>
   <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
