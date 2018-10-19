@@ -19,10 +19,19 @@ Below are the descriptions of the program files.
     </ul>
     Below are subroutines used in these programs.
     <ul>
-      <li> func_make_prob_Dopt_by_SOCP.m &hellip;  </li>
+      <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
     </ul>
   </li>
   <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
+    <ul>
+      <li> SOCP_RKHS_sample_1D_seq.m </li>
+      <li> SOCP_RKHS_sample_2D_Gauss_seq.m </li>
+      <li> SOCP_RKHS_sample_2D_sphere_seq.m </li>
+    Below are subroutines used in these programs.
+    <ul>
+      <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem.</li>
+    </ul>
+    </ul>
   </li>
 
 </ul>
