@@ -17,7 +17,7 @@ Below are the descriptions of the program files.
       <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernels on the square, triangle, and circle. </li>
       <li> SOCP_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. </li>
     </ul>
-      Below are subroutines used in these programs.
+    Below are subroutines used in these programs.
     <ul>
       <ul>
         <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
@@ -37,10 +37,12 @@ Below are the descriptions of the program files.
       <li> SOCP_RKHS_sample_1D_seq.m </li>
       <li> SOCP_RKHS_sample_2D_Gauss_seq.m </li>
       <li> SOCP_RKHS_sample_2D_sphere_seq.m </li>
+    </ul>
     Below are subroutines used in these programs.
     <ul>
-      <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
-    </ul>
+      <ul>
+        <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
+      </ul>
     </ul>
   </li>
 
