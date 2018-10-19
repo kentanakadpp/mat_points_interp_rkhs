@@ -21,6 +21,12 @@ Below are the descriptions of the program files.
         <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
         <li> func_Brown_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Brownian kernel. </li>
         <li> func_Gauss_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Gaussian kernel. </li>
+        <li> func_SpherHarm2D.m &hellip; Subroutine that outputs the spherical harmonics. It includes the following subroutines.
+        <ul>
+          <li> subfunc_coeff.m </li>
+          <li> subfunc_assLegendre.m </li>
+        </ul>
+        </li>
       </ul>
     </ul>
   </li>
