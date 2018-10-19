@@ -12,8 +12,9 @@ Below are the descriptions of the program files.
 <ul>
   <li> One-shot generator of point clouds by second-order cone programming (Algorithm 1).
     <ul>
-    <li> SOCP_RKHS_sample_1D.m &hellip; for 1-dimensional kernels: Brownian and Gaussian kernels on intervals. 
-    <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for 2-dimensional Gaussian kernels on the square, triangle, and circle.
+      <li> SOCP_RKHS_sample_1D.m &hellip; for the 1-dimensional kernels: Brownian and Gaussian kernels on intervals. </li>
+      <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernels on the square, triangle, and circle. </li>
+      <li> SOCP_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. <li>
     </ul>
   </li>
   <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
