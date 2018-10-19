@@ -56,10 +56,12 @@ Below are the descriptions of the program files.
     Below is a subroutine used in these programs.
     <ul>
       <ul>
-        <li> func_powfunc_1D.m &hellip; </li>
-        <li> func_powfunc_multiD.m &hellip; </li>
+        <li> func_powfunc_1D.m &hellip; Power functions for 1-dimensional kernels. </li>
+        <li> func_powfunc_multiD.m &hellip; Power functions for 2-dimensional kernels. </li>
       </ul>
     </ul>
   </li>
 
 </ul>
+
+The other programs: "comp_", "output_", and "plot_" programs are used for showing the results. 
