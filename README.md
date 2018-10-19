@@ -16,7 +16,9 @@ Below are the descriptions of the program files.
       <li> SOCP_RKHS_sample_1D.m &hellip; for the 1-dimensional kernels: Brownian and Gaussian kernels on intervals. </li>
       <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernels on the square, triangle, and circle. </li>
       <li> SOCP_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. </li>
+    </ul>
       Below are subroutines used in these programs.
+    <ul>
       <ul>
         <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
         <li> func_Brown_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Brownian kernel. </li>
