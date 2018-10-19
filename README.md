@@ -53,6 +53,13 @@ Below are the descriptions of the program files.
       <li> P_greedy_RKHS_sample_2D_Gauss.m &hellip; for the 2-dimensional Gaussian kernel. </li>
       <li> P_greedy_RKHS_sample_2D_sphere.m &hellip; for the 2-dimensional spherical inverse multiquadratic kernel. </li>
     </ul>
+    Below is a subroutine used in these programs. The above "func_" programs except "func_..._SOCP.m" are also used. 
+    <ul>
+      <ul>
+        <li> func_powfunc_1D.m &hellip; </li>
+        <li> func_powfunc_multiD.m &hellip; </li>
+      </ul>
+    </ul>
   </li>
 
 </ul>
