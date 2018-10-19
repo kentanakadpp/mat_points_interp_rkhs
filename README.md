@@ -6,7 +6,7 @@ These are Matlab programs for generating point clouds for interpolation in repro
 
 As written below, the programs with the prefix "SOCP_" are based on the second-order cone programming problems, which are proposed in the above article. Those with the profix "P_greedy_" are programs that yield points by the P-greedy algorithm. We used them for comparing the P-greedy algorithm with the proposed methods in the article. 
 
-In the "SOCP_" programs, MOSEK optimization toolbox for MATLAB 8.1.0.56 is used. It is provided by <a href="https://www.mosek.com/">MOSEK ApS</a>. The function mosekopt() is used to solve the SCOP problems. 
+In the "SOCP_" programs, MOSEK optimization toolbox for MATLAB 8.1.0.56 is used. It is provided by <a href="https://www.mosek.com/">MOSEK ApS</a>. The function <b>mosekopt()</b> is used to solve the SCOP problems. 
 
 Below are the descriptions of the program files.
 
