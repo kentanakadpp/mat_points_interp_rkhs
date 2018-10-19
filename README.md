@@ -10,10 +10,13 @@ As written below, the programs with the prefix "SOCP_" are based on the second-o
 Below are the descriptions of the program files.
 
 <ul>
-  <li> Generator of point clouds by second-order cone programming.
+  <li> One-shot generator of point clouds by second-order cone programming (Algorithm 1).
     <ul>
-    <li> SOCP_RKHS_sample_1D.m &hellip; for 1-dimensional examples: Brownian and Gaussian kernels on intervals. 
+    <li> SOCP_RKHS_sample_1D.m &hellip; for 1-dimensional kernels: Brownian and Gaussian kernels on intervals. 
+    <li> SOCP_RKHS_sample_2D_Gauss.m &hellip; for 2-dimensional Gaussian kernels on the square, triangle, and circle.
     </ul>
+  </li>
+  <li> Sequential generator of point clouds by second-order cone programming (Algorithm 2).
   </li>
 
 </ul>
