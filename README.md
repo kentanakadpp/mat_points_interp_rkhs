@@ -20,7 +20,7 @@ Below are the descriptions of the program files.
     Below are subroutines used in these programs.
     <ul>
       <ul>
-        <li> func_make_prob_Dopt_by_SOCP.m &hellip; Subroutine for making instances of the SOCP problem.</li>
+        <li> func_make_prob_Dopt_by_SOCP_sparse.m &hellip; Subroutine for making instances of the SOCP problem.</li>
         <li> func_Brown_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Brownian kernel. </li>
         <li> func_Gauss_eigen.m &hellip; Subroutine that outputs the eigenpairs of the Gaussian kernel. </li>
         <li> func_SpherHarm2D.m &hellip; Subroutine that outputs the spherical harmonics. It includes the following subroutines.
@@ -42,7 +42,7 @@ Below are the descriptions of the program files.
     Below is a subroutine used in these programs. The above "func_" programs except "func_..._SOCP.m" are also used. 
     <ul>
       <ul>
-        <li> func_make_prob_Dopt_by_SOCP_wfix.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
+        <li> func_make_prob_Dopt_by_SOCP_wfix_sparse.m &hellip; Subroutine for making instances of the SOCP problem with some weights fixed to 1.</li>
       </ul>
     </ul>
   </li>
