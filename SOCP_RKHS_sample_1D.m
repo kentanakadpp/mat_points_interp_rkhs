@@ -8,7 +8,7 @@ addpath('C:\Program Files\Mosek\8\toolbox\r2014a');
 m = 250; % Number of candidates (250 for 2 <= n <= 17 in "Gaussian" case. The case n=18 cannot be done even if m=500.)
 
 time_arr = [];
-for n=15:15 % Numbers of sampling points (integers)
+for n=2:25 % Numbers of sampling points (integers)
     l = n;
     
     display(strcat('Processing the case n=', num2str(n), '.....'));    
@@ -41,7 +41,8 @@ for n=15:15 % Numbers of sampling points (integers)
 
     %% Solving D-optimal design by SOCP.
     tic;
-    [V, prob] = func_make_prob_Dopt_by_SOCP(l, m, n, a);
+%    [V, prob] = func_make_prob_Dopt_by_SOCP(l, m, n, a);
+    [V, prob] = func_make_prob_Dopt_by_SOCP_sparse(l, m, n, a);
     time_make = toc;
     tic;
     [r, res] = mosekopt('maximize',prob); % MOSEK optimizer
@@ -89,4 +90,4 @@ for n=15:15 % Numbers of sampling points (integers)
 end
 
 filename = strcat(dir_time, prefix ,'1D_smp_times.txt');
-% dlmwrite(filename, time_arr);
+dlmwrite(filename, time_arr);

@@ -41,7 +41,8 @@ for n_idx = 1:length(n_arr)
     
     %% Solving D-optimal design by SOCP.
     tic;
-    [V, prob] = func_make_prob_Dopt_by_SOCP_wfix(l, m, n, a, w_fix_idx);
+%    [V, prob] = func_make_prob_Dopt_by_SOCP_wfix(l, m, n, a, w_fix_idx);
+    [V, prob] = func_make_prob_Dopt_by_SOCP_wfix_sparse(l, m, n, a, w_fix_idx);
     toc;
     tic;
     [r, res] = mosekopt('maximize',prob); % MOSEK optimizer
@@ -79,7 +80,7 @@ for n_idx = 1:length(n_arr)
         display(smpl);
         % output to a file
         filename = strcat(dir_smp, prefix ,'1D_smp_seq','_n_', num2str(n), '.txt');
-        dlmwrite(filename, smpl');
+%        dlmwrite(filename, smpl');
     else
         display('The number of local maximums is less than n.');
     end

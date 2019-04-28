@@ -6,7 +6,7 @@ dir_time = './DataTime/'; % Directory to save the data of the times
 addpath('C:\Program Files\Mosek\8\toolbox\r2014a');
 
 time_arr = [];
-for n=15:15 % Numbers of sampling points (integers)
+for n=35:40 % Numbers of sampling points (integers)
     l = n;
     
     display(strcat('Processing the case n=', num2str(n), '.....'));    
@@ -74,7 +74,8 @@ for n=15:15 % Numbers of sampling points (integers)
 
     %% Solving D-optimal design by SOCP.
     tic;
-    [V, prob] = func_make_prob_Dopt_by_SOCP(l, m, n, a);
+%     [V, prob] = func_make_prob_Dopt_by_SOCP(l, m, n, a);
+    [V, prob] = func_make_prob_Dopt_by_SOCP_sparse(l, m, n, a);
     time_make = toc;
     tic;
     [r, res] = mosekopt('maximize',prob); % MOSEK optimizer
